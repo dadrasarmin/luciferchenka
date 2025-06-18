@@ -1,0 +1,801 @@
+contributors:
+- name: Maya Lopez
+  role: Project Manager
+  country: Canada
+  github_id: user0
+  employer: Khalifa University
+  lat: 56.6198
+  lon: -106.0332
+  team: Data Analysis
+- name: Priya Chen
+  role: Data Scientist
+  country: Germany
+  github_id: user1
+  employer: CNRS
+  lat: 51.5985
+  lon: 10.4558
+  team: Training & Support
+- name: Farah Dubois
+  role: Data Scientist
+  country: Nigeria
+  github_id: user2
+  employer: Tsinghua University
+  lat: 9.257
+  lon: 8.7097
+  team: Management
+- name: Ivan Brown
+  role: Trainer
+  country: Germany
+  github_id: user3
+  employer: IIT Delhi
+  lat: 50.8608
+  lon: 10.6825
+  team: Training & Support
+- name: Quinn Lopez
+  role: Researcher
+  country: Canada
+  github_id: user4
+  employer: CNRS
+  lat: 56.4115
+  lon: -106.7708
+  team: Data Analysis
+- name: Emilie Okafor
+  role: Project Manager
+  country: Nigeria
+  github_id: user5
+  employer: University of Lagos
+  lat: 9.3992
+  lon: 8.9867
+  team: Training & Support
+- name: Nora Lopez
+  role: Project Manager
+  country: India
+  github_id: user6
+  employer: Barcelona Supercomputing Center
+  lat: 20.6983
+  lon: 79.0811
+  team: Data Analysis
+- name: Julia Brown
+  role: Data Scientist
+  country: Brazil
+  github_id: user7
+  employer: USP
+  lat: -14.2778
+  lon: -52.3594
+  team: Data Analysis
+- name: Maya Nguyen
+  role: Project Manager
+  country: India
+  github_id: user8
+  employer: USP
+  lat: 20.4695
+  lon: 78.9521
+  team: Core Development
+- name: Sara Dubois
+  role: Trainer
+  country: Nigeria
+  github_id: user9
+  employer: USP
+  lat: 8.8492
+  lon: 8.8266
+  team: Management
+- name: Kevin Chen
+  role: Researcher
+  country: Nigeria
+  github_id: user10
+  employer: University of Lagos
+  lat: 8.9878
+  lon: 8.8387
+  team: Scientific Research
+- name: David Dubois
+  role: Researcher
+  country: Spain
+  github_id: user11
+  employer: University of Lagos
+  lat: 40.4396
+  lon: -3.6113
+  team: Core Development
+- name: Sara Okafor
+  role: Trainer
+  country: Brazil
+  github_id: user12
+  employer: Tsinghua University
+  lat: -14.687
+  lon: -51.8919
+  team: Management
+- name: Quinn Okafor
+  role: Trainer
+  country: India
+  github_id: user13
+  employer: USP
+  lat: 20.7838
+  lon: 79.4181
+  team: Scientific Research
+- name: Farah Brown
+  role: Data Scientist
+  country: Brazil
+  github_id: user14
+  employer: Barcelona Supercomputing Center
+  lat: -13.7881
+  lon: -51.6601
+  team: Data Analysis
+- name: Maya Lopez
+  role: Researcher
+  country: UAE
+  github_id: user15
+  employer: IIT Delhi
+  lat: 23.2153
+  lon: 53.882
+  team: Core Development
+- name: Maya Brown
+  role: Project Manager
+  country: China
+  github_id: user16
+  employer: USP
+  lat: 35.7437
+  lon: 104.25
+  team: Core Development
+- name: Ivan Al-Mansoori
+  role: Developer
+  country: Brazil
+  github_id: user17
+  employer: USP
+  lat: -14.3548
+  lon: -52.2536
+  team: Data Analysis
+- name: Hana Ivanov
+  role: Data Scientist
+  country: UAE
+  github_id: user18
+  employer: CNRS
+  lat: 23.0972
+  lon: 54.1941
+  team: Management
+- name: Ivan Kowalski
+  role: Researcher
+  country: USA
+  github_id: user19
+  employer: CNRS
+  lat: 37.0363
+  lon: -96.1675
+  team: Scientific Research
+- name: Sara Nguyen
+  role: Project Manager
+  country: France
+  github_id: user20
+  employer: University of Freiburg
+  lat: 46.4412
+  lon: 2.2548
+  team: Scientific Research
+- name: Alice Okafor
+  role: Developer
+  country: Nigeria
+  github_id: user21
+  employer: IIT Delhi
+  lat: 9.3205
+  lon: 8.8721
+  team: Scientific Research
+- name: Kevin Dubois
+  role: Data Scientist
+  country: Brazil
+  github_id: user22
+  employer: Stanford University
+  lat: -13.9855
+  lon: -51.4293
+  team: Core Development
+- name: Alice Brown
+  role: Developer
+  country: Germany
+  github_id: user23
+  employer: CNRS
+  lat: 51.0177
+  lon: 10.903
+  team: Scientific Research
+- name: Alice Dubois
+  role: Project Manager
+  country: China
+  github_id: user24
+  employer: USP
+  lat: 35.4055
+  lon: 104.373
+  team: Training & Support
+- name: Omar Al-Mansoori
+  role: Trainer
+  country: Spain
+  github_id: user25
+  employer: University of Freiburg
+  lat: 40.1516
+  lon: -3.3733
+  team: Data Analysis
+- name: Sara Dubois
+  role: Researcher
+  country: USA
+  github_id: user26
+  employer: Khalifa University
+  lat: 37.505
+  lon: -96.1238
+  team: Training & Support
+- name: Kevin Lopez
+  role: Data Scientist
+  country: Spain
+  github_id: user27
+  employer: USP
+  lat: 40.3063
+  lon: -3.9653
+  team: Core Development
+- name: Alice Brown
+  role: Project Manager
+  country: Canada
+  github_id: user28
+  employer: USP
+  lat: 56.1194
+  lon: -105.8993
+  team: Core Development
+- name: George Kowalski
+  role: Project Manager
+  country: Spain
+  github_id: user29
+  employer: Tsinghua University
+  lat: 40.5332
+  lon: -3.5859
+  team: Data Analysis
+- name: Tom Okafor
+  role: Data Scientist
+  country: UAE
+  github_id: user30
+  employer: University of Lagos
+  lat: 23.792
+  lon: 53.7646
+  team: Training & Support
+- name: Alice Lopez
+  role: Data Scientist
+  country: India
+  github_id: user31
+  employer: IIT Delhi
+  lat: 20.7552
+  lon: 78.943
+  team: Core Development
+- name: Alice Okafor
+  role: Data Scientist
+  country: China
+  github_id: user32
+  employer: CNRS
+  lat: 35.7728
+  lon: 104.6312
+  team: Management
+- name: Julia Dubois
+  role: Developer
+  country: Nigeria
+  github_id: user33
+  employer: CNRS
+  lat: 9.4097
+  lon: 8.6901
+  team: Management
+- name: Emilie Ivanov
+  role: Project Manager
+  country: India
+  github_id: user34
+  employer: Khalifa University
+  lat: 20.4178
+  lon: 79.2085
+  team: Core Development
+- name: Kevin Kowalski
+  role: Developer
+  country: India
+  github_id: user35
+  employer: University of Toronto
+  lat: 20.7364
+  lon: 79.4118
+  team: Training & Support
+- name: Ravi Chen
+  role: Trainer
+  country: Brazil
+  github_id: user36
+  employer: Tsinghua University
+  lat: -13.761
+  lon: -51.7348
+  team: Training & Support
+- name: Maya Al-Mansoori
+  role: Trainer
+  country: UAE
+  github_id: user37
+  employer: University of Freiburg
+  lat: 23.2278
+  lon: 53.6432
+  team: Training & Support
+- name: Omar Dubois
+  role: Developer
+  country: Canada
+  github_id: user38
+  employer: Khalifa University
+  lat: 56.2373
+  lon: -106.7345
+  team: Training & Support
+- name: Tom Chen
+  role: Project Manager
+  country: Brazil
+  github_id: user39
+  employer: Stanford University
+  lat: -14.5419
+  lon: -51.7932
+  team: Training & Support
+- name: Liam Brown
+  role: Project Manager
+  country: Canada
+  github_id: user40
+  employer: University of Toronto
+  lat: 56.2823
+  lon: -106.3803
+  team: Core Development
+- name: Ivan Dubois
+  role: Researcher
+  country: China
+  github_id: user41
+  employer: Barcelona Supercomputing Center
+  lat: 35.774
+  lon: 104.3311
+  team: Management
+- name: Julia Okafor
+  role: Data Scientist
+  country: UAE
+  github_id: user42
+  employer: University of Toronto
+  lat: 23.1973
+  lon: 54.067
+  team: Data Analysis
+- name: Ivan Brown
+  role: Project Manager
+  country: France
+  github_id: user43
+  employer: USP
+  lat: 46.7663
+  lon: 2.2764
+  team: Training & Support
+- name: Quinn Kowalski
+  role: Developer
+  country: Germany
+  github_id: user44
+  employer: USP
+  lat: 51.262
+  lon: 10.7741
+  team: Core Development
+- name: Liam Ivanov
+  role: Project Manager
+  country: Brazil
+  github_id: user45
+  employer: CNRS
+  lat: -13.834
+  lon: -51.8297
+  team: Management
+- name: Clara Okafor
+  role: Project Manager
+  country: Brazil
+  github_id: user46
+  employer: University of Lagos
+  lat: -14.1552
+  lon: -52.3036
+  team: Training & Support
+- name: Ivan Ivanov
+  role: Project Manager
+  country: UAE
+  github_id: user47
+  employer: Khalifa University
+  lat: 23.1784
+  lon: 53.5043
+  team: Training & Support
+- name: Priya Brown
+  role: Developer
+  country: India
+  github_id: user48
+  employer: CNRS
+  lat: 20.5432
+  lon: 78.8598
+  team: Training & Support
+- name: George Smith
+  role: Project Manager
+  country: Nigeria
+  github_id: user49
+  employer: Tsinghua University
+  lat: 9.5057
+  lon: 8.7898
+  team: Training & Support
+- name: Sara Al-Mansoori
+  role: Project Manager
+  country: China
+  github_id: user50
+  employer: University of Freiburg
+  lat: 35.6152
+  lon: 103.8694
+  team: Management
+- name: Nora Kowalski
+  role: Data Scientist
+  country: UAE
+  github_id: user51
+  employer: Tsinghua University
+  lat: 23.712
+  lon: 54.2923
+  team: Management
+- name: Clara Brown
+  role: Project Manager
+  country: Brazil
+  github_id: user52
+  employer: Khalifa University
+  lat: -14.5991
+  lon: -51.6503
+  team: Management
+- name: Omar Nguyen
+  role: Developer
+  country: India
+  github_id: user53
+  employer: CNRS
+  lat: 20.4313
+  lon: 79.3949
+  team: Core Development
+- name: Julia Chen
+  role: Developer
+  country: Germany
+  github_id: user54
+  employer: CNRS
+  lat: 51.4313
+  lon: 10.3058
+  team: Data Analysis
+- name: Tom Dubois
+  role: Trainer
+  country: France
+  github_id: user55
+  employer: USP
+  lat: 46.6963
+  lon: 2.1433
+  team: Training & Support
+- name: Tom Okafor
+  role: Researcher
+  country: Nigeria
+  github_id: user56
+  employer: University of Lagos
+  lat: 9.485
+  lon: 8.6651
+  team: Core Development
+- name: Priya Ivanov
+  role: Researcher
+  country: France
+  github_id: user57
+  employer: CNRS
+  lat: 46.1087
+  lon: 2.0424
+  team: Data Analysis
+- name: David Brown
+  role: Trainer
+  country: USA
+  github_id: user58
+  employer: Barcelona Supercomputing Center
+  lat: 37.1898
+  lon: -95.2506
+  team: Data Analysis
+- name: Hana Brown
+  role: Data Scientist
+  country: France
+  github_id: user59
+  employer: USP
+  lat: 46.6064
+  lon: 1.8621
+  team: Management
+- name: George Chen
+  role: Researcher
+  country: Canada
+  github_id: user60
+  employer: University of Lagos
+  lat: 56.0798
+  lon: -106.1161
+  team: Core Development
+- name: Quinn Okafor
+  role: Data Scientist
+  country: China
+  github_id: user61
+  employer: Barcelona Supercomputing Center
+  lat: 35.6632
+  lon: 103.9371
+  team: Scientific Research
+- name: Liam Ivanov
+  role: Researcher
+  country: Canada
+  github_id: user62
+  employer: Barcelona Supercomputing Center
+  lat: 55.7814
+  lon: -105.8483
+  team: Management
+- name: Tom Chen
+  role: Trainer
+  country: Nigeria
+  github_id: user63
+  employer: IIT Delhi
+  lat: 9.5131
+  lon: 9.0492
+  team: Scientific Research
+- name: Maya Okafor
+  role: Data Scientist
+  country: Germany
+  github_id: user64
+  employer: USP
+  lat: 51.1299
+  lon: 10.9185
+  team: Training & Support
+- name: Bob Nguyen
+  role: Project Manager
+  country: India
+  github_id: user65
+  employer: CNRS
+  lat: 20.3121
+  lon: 78.6452
+  team: Data Analysis
+- name: Hana Kowalski
+  role: Developer
+  country: France
+  github_id: user66
+  employer: Tsinghua University
+  lat: 46.3824
+  lon: 2.3799
+  team: Data Analysis
+- name: Alice Kowalski
+  role: Project Manager
+  country: Brazil
+  github_id: user67
+  employer: IIT Delhi
+  lat: -14.1395
+  lon: -52.1619
+  team: Data Analysis
+- name: Julia Al-Mansoori
+  role: Trainer
+  country: Canada
+  github_id: user68
+  employer: Tsinghua University
+  lat: 55.8979
+  lon: -106.8311
+  team: Scientific Research
+- name: Quinn Kowalski
+  role: Project Manager
+  country: Nigeria
+  github_id: user69
+  employer: Stanford University
+  lat: 9.2915
+  lon: 8.8283
+  team: Core Development
+- name: Clara Lopez
+  role: Developer
+  country: Brazil
+  github_id: user70
+  employer: Tsinghua University
+  lat: -14.2409
+  lon: -51.6726
+  team: Core Development
+- name: Sara Ivanov
+  role: Trainer
+  country: Germany
+  github_id: user71
+  employer: University of Freiburg
+  lat: 51.3585
+  lon: 10.5119
+  team: Scientific Research
+- name: George Lopez
+  role: Developer
+  country: France
+  github_id: user72
+  employer: Stanford University
+  lat: 46.6703
+  lon: 1.7918
+  team: Data Analysis
+- name: Bob Nguyen
+  role: Trainer
+  country: Spain
+  github_id: user73
+  employer: Barcelona Supercomputing Center
+  lat: 39.9772
+  lon: -3.4002
+  team: Core Development
+- name: Ravi Brown
+  role: Data Scientist
+  country: Nigeria
+  github_id: user74
+  employer: USP
+  lat: 9.5177
+  lon: 9.0772
+  team: Management
+- name: David Lopez
+  role: Developer
+  country: Germany
+  github_id: user75
+  employer: University of Toronto
+  lat: 50.8219
+  lon: 10.9417
+  team: Data Analysis
+- name: Bob Dubois
+  role: Researcher
+  country: China
+  github_id: user76
+  employer: USP
+  lat: 35.9783
+  lon: 103.7032
+  team: Data Analysis
+- name: Clara Lopez
+  role: Data Scientist
+  country: Brazil
+  github_id: user77
+  employer: Tsinghua University
+  lat: -14.7281
+  lon: -52.3918
+  team: Scientific Research
+- name: David Al-Mansoori
+  role: Developer
+  country: Brazil
+  github_id: user78
+  employer: Barcelona Supercomputing Center
+  lat: -13.9553
+  lon: -52.1843
+  team: Management
+- name: Bob Nguyen
+  role: Trainer
+  country: India
+  github_id: user79
+  employer: Stanford University
+  lat: 20.8137
+  lon: 79.0605
+  team: Scientific Research
+- name: Omar Brown
+  role: Trainer
+  country: France
+  github_id: user80
+  employer: IIT Delhi
+  lat: 46.429
+  lon: 1.8973
+  team: Management
+- name: Alice Dubois
+  role: Developer
+  country: Canada
+  github_id: user81
+  employer: Stanford University
+  lat: 56.3176
+  lon: -106.626
+  team: Core Development
+- name: Tom Al-Mansoori
+  role: Data Scientist
+  country: Nigeria
+  github_id: user82
+  employer: University of Lagos
+  lat: 8.8435
+  lon: 9.1718
+  team: Data Analysis
+- name: Kevin Smith
+  role: Trainer
+  country: Canada
+  github_id: user83
+  employer: Tsinghua University
+  lat: 56.5279
+  lon: -106.5664
+  team: Data Analysis
+- name: Priya Nguyen
+  role: Researcher
+  country: Spain
+  github_id: user84
+  employer: Khalifa University
+  lat: 40.2832
+  lon: -4.2105
+  team: Scientific Research
+- name: Liam Dubois
+  role: Developer
+  country: China
+  github_id: user85
+  employer: University of Toronto
+  lat: 36.2064
+  lon: 104.1787
+  team: Data Analysis
+- name: Sara Chen
+  role: Developer
+  country: India
+  github_id: user86
+  employer: Barcelona Supercomputing Center
+  lat: 20.1301
+  lon: 78.6422
+  team: Data Analysis
+- name: Julia Ivanov
+  role: Researcher
+  country: India
+  github_id: user87
+  employer: IIT Delhi
+  lat: 21.049
+  lon: 78.8393
+  team: Management
+- name: Sara Kowalski
+  role: Trainer
+  country: Canada
+  github_id: user88
+  employer: USP
+  lat: 55.7266
+  lon: -106.5371
+  team: Data Analysis
+- name: Tom Brown
+  role: Trainer
+  country: USA
+  github_id: user89
+  employer: Stanford University
+  lat: 37.2409
+  lon: -95.2908
+  team: Data Analysis
+- name: Julia Lopez
+  role: Developer
+  country: China
+  github_id: user90
+  employer: Tsinghua University
+  lat: 35.4298
+  lon: 103.7258
+  team: Data Analysis
+- name: Alice Dubois
+  role: Project Manager
+  country: UAE
+  github_id: user91
+  employer: Stanford University
+  lat: 22.9654
+  lon: 53.6524
+  team: Scientific Research
+- name: Priya Smith
+  role: Developer
+  country: USA
+  github_id: user92
+  employer: Barcelona Supercomputing Center
+  lat: 37.3817
+  lon: -95.9455
+  team: Core Development
+- name: Farah Nguyen
+  role: Trainer
+  country: Nigeria
+  github_id: user93
+  employer: IIT Delhi
+  lat: 8.6009
+  lon: 8.7831
+  team: Management
+- name: Clara Brown
+  role: Data Scientist
+  country: Brazil
+  github_id: user94
+  employer: University of Toronto
+  lat: -14.1695
+  lon: -51.9817
+  team: Management
+- name: Sara Nguyen
+  role: Researcher
+  country: Canada
+  github_id: user95
+  employer: University of Freiburg
+  lat: 56.1146
+  lon: -105.9459
+  team: Training & Support
+- name: Omar Chen
+  role: Researcher
+  country: USA
+  github_id: user96
+  employer: Tsinghua University
+  lat: 37.357
+  lon: -96.0049
+  team: Data Analysis
+- name: Julia Smith
+  role: Researcher
+  country: Canada
+  github_id: user97
+  employer: Barcelona Supercomputing Center
+  lat: 56.0571
+  lon: -106.7258
+  team: Core Development
+- name: Kevin Al-Mansoori
+  role: Developer
+  country: Brazil
+  github_id: user98
+  employer: CNRS
+  lat: -13.7434
+  lon: -51.7464
+  team: Training & Support
+- name: Quinn Nguyen
+  role: Project Manager
+  country: China
+  github_id: user99
+  employer: Stanford University
+  lat: 36.1473
+  lon: 104.3149
+  team: Management
