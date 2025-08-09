@@ -1,0 +1,98 @@
+%============================
+% Name Tag Generator (CSV → badges)
+%============================
+\documentclass[a4paper,12pt]{article}
+
+%--- Page + layout
+\usepackage[a4paper,margin=10mm]{geometry}
+\usepackage{graphicx}
+\usepackage{fontspec}      % XeLaTeX/LuaLaTeX
+\usepackage{tikz}
+\usepackage[most]{tcolorbox}
+\usepackage{csvsimple}
+\usepackage{xstring}
+\usepackage{ragged2e}
+\usepackage{microtype}
+\usepackage{array}
+
+%--- Fonts (Overleaf-safe)
+\setmainfont{TeX Gyre Heros}
+\setsansfont{TeX Gyre Heros}
+
+%--- Theme colors
+\definecolor{textdark}{HTML}{343a40}
+\definecolor{muted}{HTML}{403d39}
+\definecolor{mylinecolor}{HTML}{ced4da}
+\definecolor{mybackground}{HTML}{f5f1e9}
+\definecolor{myshadow}{HTML}{e5dac3}
+
+%--- Event config
+\newcommand*{\eventname}{European Galaxy Days 2025}
+\newcommand*{\eventlogo}{logo.png}
+
+%--- Badge sizing
+\newlength{\badgew}  \setlength{\badgew}{90mm}
+\newlength{\badgeh}  \setlength{\badgeh}{60mm}
+\newlength{\gutter}  \setlength{\gutter}{6mm}
+
+%--- Typography scales
+\newcommand*{\NameSize}{\fontsize{17}{19}\selectfont}
+\newcommand*{\PronounSize}{\large}
+\newcommand*{\AffilSize}{\normalsize}
+\newcommand*{\EventSize}{\fontsize{10}{11}\selectfont}
+\newcommand*{\TinyCaps}[1]{\addfontfeatures{LetterSpace=3.0}#1}
+
+%--- Badge renderer
+\newcommand{\NameTag}[4]{%
+  \begin{tcolorbox}[
+    enhanced,
+    width=\badgew,height=\badgeh,
+    colback=mybackground,
+    colframe=black!0,
+    boxsep=0pt, left=10mm, right=10mm, top=8mm, bottom=8mm,
+    arc=10pt,
+    drop shadow={myshadow}
+  ]
+  {\color{textdark}
+    \vfill
+    % Group 1: Logo + Event Name (center aligned by midpoint)
+    \begin{minipage}{\linewidth}\centering
+      \begin{tabular}{@{}>{\centering\arraybackslash}m{8mm}@{\hspace{5mm}}>{\centering\arraybackslash}m{0.9\linewidth}@{}}
+        \includegraphics[height=12mm]{\eventlogo} & {\EventSize\bfseries \TinyCaps{\MakeUppercase{\eventname}}} \\
+      \end{tabular}
+    \end{minipage}
+    
+    % Flexible space between Group 1 and Group 2
+    \vspace*{3mm}\vfill
+    
+    % Group 2: Name, pronouns, affiliation (centered)
+    \begin{minipage}{\linewidth}\centering
+      {\NameSize\bfseries #1\;#2}\par
+      \IfStrEq{#3}{}{}{ {\PronounSize\color{muted}(#3)}\par}
+      \noindent\textcolor{mylinecolor}{\rule{0.8\badgew}{0.4pt}}
+      {\AffilSize\itshape #4}\par
+    \end{minipage}
+    \vfill
+  }
+  \end{tcolorbox}%
+}
+
+%--- Two-column flow
+\newcounter{col}
+\setcounter{col}{0}
+\newcommand*{\BadgeBlock}[4]{%
+  \begin{minipage}[t][\badgeh][t]{0.49\linewidth}
+    \NameTag{#1}{#2}{#3}{#4}
+  \end{minipage}%
+  \stepcounter{col}%
+  \ifnum\value{col}=1\hfill\else\par\vspace{\gutter}\setcounter{col}{0}\fi
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+\csvreader[separator=comma, head to column names]{attendees.csv}{}{
+  \BadgeBlock{\csvcoli}{\csvcolii}{\csvcoliii}{\csvcoliv}}
+\end{document}
