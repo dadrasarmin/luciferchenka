@@ -1,21 +1,39 @@
 ---
-title: "Confirmation of Attendance"
-author: "{{ organizer_name }}"
-date: "{{ issue_date }}"
+papersize: a4
+geometry: landscape,margin=2cm
+mainfont: "DejaVu Sans"
+sansfont: "DejaVu Sans"
+fontsize: 14pt
+header-includes:
+  - \usepackage{graphicx}
+  - \thispagestyle{empty}
 ---
 
-![Logo]({{ logo_path }}){ width=150px }
+\vspace*{\fill}
 
-**To:** {{ first_name }} {{ last_name }}
+\begin{center}
+{\Huge \textbf{Certificate of Participation}}\\[0.8cm]
 
-Dear {{ first_name }},
+\begin{minipage}{0.8\linewidth}
+\raggedright
+This is to confirm that \textbf{ {{ first_name }} {{ last_name }} } attended the co-located events held \textbf{1–3 October 2025} in {{ event_location }}, comprising:\\
+\begin{itemize}
+  \item The ELIXIR Galaxy Community Face-to-face (F2F) Meeting
+  \item The EuroScienceGateway Final Conference
+  \item The European Galaxy Days (EGD) Meeting
+\end{itemize}
+\end{minipage}
+\end{center}
 
-Thank you for registering for **{{ event_name }}**, to be held on {{ event_date }} at {{ event_location }}.  
-This is to confirm your attendance.
+\vspace*{\fill}
 
-Please keep this document for your records.
-
-Best regards,  
-{{ organizer_name }}  
-![Signature]({{ signature_path }}){ width=200px }
-
+\noindent
+\begin{minipage}[b]{0.55\linewidth}
+\raggedright
+\textbf{Date of issue:} {{ issue_date }}\\[0.5cm]
+\textbf{Signed by:} {{ organizer_name }}
+\end{minipage}
+\begin{minipage}[b]{0.45\linewidth}
+\centering
+\includegraphics[height=100pt]{\detokenize{ {{ signature_path }} }}
+\end{minipage}

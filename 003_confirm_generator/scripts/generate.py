@@ -10,10 +10,11 @@ TEMPLATE_DIR = os.path.join(os.path.dirname(__file__), "../templates")
 OUTPUT_DIR   = os.path.join(os.path.dirname(__file__), "../output")
 DATA_FILE    = os.path.join(os.path.dirname(__file__), "../data/participants.csv")
 
-EVENT_NAME     = "PyCon Europe 2025"
-EVENT_DATE     = "August 12–14, 2025"
-EVENT_LOCATION = "Berlin, Germany"
-ORGANIZER_NAME = "PyCon Europe Org Team"
+EVENT_NAME     = "European Galaxy Days 2025"
+EVENT_DATE     = "October 1–3, 2025"
+EVENT_LOCATION = "Freiburg im Breisgau, Germany"
+ORGANIZER_NAME = "European Galaxy Team"
+ISSUE_DATE = "3rd October 2025"
 
 LOGO_PATH      = os.path.abspath(os.path.join(TEMPLATE_DIR, "logo.png"))
 SIGNATURE_PATH = os.path.abspath(os.path.join(TEMPLATE_DIR, "signature.png"))
@@ -37,7 +38,7 @@ def main():
                 event_date     = EVENT_DATE,
                 event_location = EVENT_LOCATION,
                 organizer_name = ORGANIZER_NAME,
-                issue_date     = today,
+                issue_date     = ISSUE_DATE,
                 logo_path      = LOGO_PATH,
                 signature_path = SIGNATURE_PATH,
             )
