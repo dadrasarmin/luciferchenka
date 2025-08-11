@@ -23,16 +23,17 @@
 \definecolor{textdark}{HTML}{343a40}
 \definecolor{muted}{HTML}{403d39}
 \definecolor{mylinecolor}{HTML}{ced4da}
-\definecolor{mybackground}{HTML}{f5f1e9}
-\definecolor{myshadow}{HTML}{e5dac3}
+\definecolor{mybackground}{HTML}{ffffff}
+\definecolor{myshadow}{HTML}{ffffff}
 
 %--- Event config
 \newcommand*{\eventname}{European Galaxy Days 2025}
 \newcommand*{\eventlogo}{logo.png}
+\newcommand*{\agendaqr}{qr-code.png}
 
 %--- Badge sizing
 \newlength{\badgew}  \setlength{\badgew}{90mm}
-\newlength{\badgeh}  \setlength{\badgeh}{60mm}
+\newlength{\badgeh}  \setlength{\badgeh}{55mm}
 \newlength{\gutter}  \setlength{\gutter}{6mm}
 
 %--- Typography scales
@@ -48,10 +49,19 @@
     enhanced,
     width=\badgew,height=\badgeh,
     colback=mybackground,
-    colframe=black!0,
+    colframe=black,
+    boxrule=0.3mm,
     boxsep=0pt, left=10mm, right=10mm, top=8mm, bottom=8mm,
-    arc=10pt,
-    drop shadow={myshadow}
+    arc=1pt,
+    drop shadow={myshadow},
+    overlay={
+      % QR image anchored inside the frame:
+      \node[anchor=south east, xshift=-1mm, yshift=1mm] at (frame.south east) {%
+        \begin{minipage}{10mm}\centering
+          \includegraphics[width=10mm]{\agendaqr}
+        \end{minipage}
+      };
+    }
   ]
   {\color{textdark}
     \vfill
